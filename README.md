@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Acomodar,arreglar:
+
+//ItemCount:
+Acomodar lo que es los estilos en css porque no me los identifica y no me toma los colores y el casillero
+
+//Cards:
+ver la forma de poner 3 cards seguidas, alinearlas. Ver la forma de acomodarlas haciendo un componente para cada una pero tengo que ver donde acomodo esos componentes, si dentro de la primer card o solo en App.js
