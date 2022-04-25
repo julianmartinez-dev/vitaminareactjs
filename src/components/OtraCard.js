@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Cards = () => {
+const OtraCard = () => {
   return (
-    <div class="card mx-3 w-96 glass">
+    <div class="card container mx-auto w-96 glass">
     <figure>
-      <img src="https://api.lorem.space/image/face?hash=80245" alt=""/>
+      <img src="https://api.lorem.space/image/face?hash=88560" alt=""/>
       </figure>
     <div class="card-body">
       <h2 class="card-title">Life hack</h2>
@@ -14,5 +14,4 @@ const Cards = () => {
   )
 }
 
-export default Cards
-
+export default OtraCard

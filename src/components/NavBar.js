@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import CartWidget from "./CartWidget";
 
@@ -10,94 +10,33 @@ const NavBar = () => {
     }*/
 
   return (
-    <div>
-        {/* <li style={estilos}>Inicio</li>
-        <li style={estilos}>Catalogo</li>
-        <li style={estilos}>Tips Especiales</li>
-        <li style={estilos}>Maquinaria</li> */
-        
-        <nav class="flex items-center justify-between flex-wrap bg-black p-6">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-semibold text-xl tracking-tight">Vitamina Sea</span>
-        </div>
-        <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div class="text-sm lg:flex-grow">
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Inicio
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Catalogo
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Tips
-            </a>
-          </div>
-          <CartWidget/>
-        </div>
-      </nav>
-
-        }
-
+<div class="navbar bg-base-100 ">
+<div class="navbar-start ">
+  <div class="dropdown">
+    <label tabindex="0" class="btn btn-ghost btn-circle">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+    </label>
+    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <li><a>Portfolio</a></li>
+      <li><a>About</a></li>
+    </ul>
+  </div>
+</div>
+<div class="navbar-center">
+  <a class="btn btn-ghost text-xl font-semibold">Vitamina Sea</a>
+</div>
+<div class="navbar-end">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+      <span class="badge badge-xs badge-primary indicator-item"></span>
+      <button class="btn btn-ghost btn-circle">
+    <div class="indicator">
+      <CartWidget/>
     </div>
-  )
-}
+  </button>
+</div>
+</div>
+
+   )
+ }
 
 export default NavBar
-
-=======
-import React from 'react'
-import CartWidget from "./CartWidget";
-
-const NavBar = () => {
-
-   /* const estilos = {
-        border: "solid red 1px",
-        color: "blue"
-    }*/
-
-  return (
-    <div>
-        {/* <li style={estilos}>Inicio</li>
-        <li style={estilos}>Catalogo</li>
-        <li style={estilos}>Tips Especiales</li>
-        <li style={estilos}>Maquinaria</li> */
-        
-        <nav class="flex items-center justify-between flex-wrap bg-black p-6">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-semibold text-xl tracking-tight">Vitamina Sea</span>
-        </div>
-        <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div class="text-sm lg:flex-grow">
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Inicio
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Catalogo
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Tips
-            </a>
-          </div>
-          <CartWidget/>
-        </div>
-      </nav>
-
-        }
-
-    </div>
-  )
-}
-
-export default NavBar
-
->>>>>>> 126c9cf9f61094747ed8309c32626e9e24741165
