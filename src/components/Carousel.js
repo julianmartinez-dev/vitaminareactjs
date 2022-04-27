@@ -4,25 +4,25 @@ const Carousel = () => {
   return (
     <div class="carousel carousel-center mx-6 mt-6 rounded-box">
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=8B7BCDC2" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=500B67FB" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=A89D0DE6" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=225E6693" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=9D9539E7" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=BDC01094" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div> 
   <div class="carousel-item">
-    <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=7F5AE56A" alt="Pizza" />
+    <img src="https://images.unsplash.com/photo-1650393147182-75530b7f7a73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Pizza" />
   </div>
 </div>
   )

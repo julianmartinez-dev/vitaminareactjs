@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/*   color variables */
+$clr-primary: #d50000;
+$clr-primary-hover: #29e6a7;
+$clr-primary-dark: #039d69;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 0.2rem;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Oxygen, sans-serif;
+  margin: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px ;
+  color: #4f546c;
+  border-radius: $radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  }
+
+  /* &__image {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  } */
+
+  .card__title {
+    padding: 1rem;
+  }
+
+  .card__description {
+    padding: 0 1rem;
+  }
+
+  .card__btn {
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid $clr-primary;
+    background: transparent;
+    color: $clr-primary;
+    border-radius: $radius;
+    transition:  200ms ease-in, color 200ms ease-in;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:hover &__btn {
+    background: $clr-primary;
+    color: white;
+}
+
+/* ItemCount */
+/* Estos estilos son para el itemcount pero no me funcionan, tengo que ver porque  */
+
+
+.count-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.count-container__contador {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  width: 140px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 40px auto 0;
+}
+
+.count-container__button {
+  color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--border-color);
+  font-size: 1.6rem;
+  transition: all 250ms ease-out;
+}
+
+.count-container__button:hover {
+  border: none;
+  color: var(--just-white);
+  background-color: var(--primary-color);
+}
+
+.count-container__button[disabled] {
+  color: var(--border-color);
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+}
+
+.count-container__qty {
+  text-align: center;
+  height: 100%;
+  padding-top: 10px;
+  color: var(--primary-color);
+  background-color: var(--just-white);
+} 

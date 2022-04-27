@@ -1,14 +1,16 @@
-
 import './App.css';
+import './style.css';
 
 import NavBar from './components/NavBar';
-import Cards from './components/Cards';
 import ItemListContainer from './components/ItemListContainer';
 import Carousel from './components/Carousel';
 import Divider from './components/Divider';
 import Footer from './components/Footer';
-import OtraCard from './components/OtraCard';
 import ItemCount from './components/ItemCount';
+import NewCard from './components/NewCard';
+import PosteoContainer from './posteos/PosteoContainer';
+
+
 
 // import Contador from './components/Contador';
 
@@ -24,12 +26,11 @@ function App() {
       <ItemCount onAdd={onAdd}/>
 
       {/* <Contador/> */}
-      
-      <ItemListContainer/>
+  
+      <PosteoContainer/>
 
-      <Cards/>
-      <OtraCard/> 
-     
+      <ItemListContainer/>
+      <NewCard/>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -45,11 +46,10 @@ function App() {
           Learn React
         </a>
       </header> */}
+
       <Carousel/>
       <Divider/>
-
       <Footer/>
-
     </div>
   );
 }
