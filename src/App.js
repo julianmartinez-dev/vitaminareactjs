@@ -1,18 +1,20 @@
 import './App.css';
 import './style.css';
 
+import React from "react";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import Carousel from './components/Carousel';
 import Divider from './components/Divider';
 import Footer from './components/Footer';
-import ItemCount from './components/ItemCount';
+import ItemCount from './components/itemCount/ItemCount';
 import NewCard from './components/NewCard';
 import PosteoContainer from './posteos/PosteoContainer';
+import CuadroDetailContainer from './components/cuadrosDetail/CuadroDetailContainer';
 
 
-
-// import Contador from './components/Contador';
 
 function App() {
 
@@ -22,17 +24,29 @@ function App() {
 
   return (
     <div className="App">
+
       <NavBar/>
       <ItemCount onAdd={onAdd}/>
 
-      {/* <Contador/> */}
-  
+      <CuadroDetailContainer/>
+
       <PosteoContainer/>
 
       <ItemListContainer/>
       <NewCard/>
 
-      {/* <header className="App-header">
+      
+
+      <Carousel/>
+      <Divider/>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App;
+
+{/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -46,12 +60,3 @@ function App() {
           Learn React
         </a>
       </header> */}
-
-      <Carousel/>
-      <Divider/>
-      <Footer/>
-    </div>
-  );
-}
-
-export default App;

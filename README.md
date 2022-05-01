@@ -70,10 +70,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Acomodar,arreglar:
+Acomodar,arreglar,ideas:
 
-//ItemCount:
-Acomodar lo que es los estilos en css porque no me los identifica y no me toma los colores y el casillero
+Pagina principal:
+La idea es que en la pagina principal queden 3 cards con 3 imagenes mias, un carousel de una sola imagen y abajo una pequeña descripcion de porque saco fotos o porque es mi hobby.
 
-//Cards:
-ver la forma de poner 3 cards seguidas, alinearlas. Ver la forma de acomodarlas haciendo un componente para cada una pero tengo que ver donde acomodo esos componentes, si dentro de la primer card o solo en App.js
+ItemCount:
+Mover el item count hacia los cuadros y hacia el carrito tambien
+(ubicarlo adentro)
+
+Posteos:
+agregar dos mas cuando tenga las paginas.
+Los posteos van a ir ubicados dentro del navbar en la seccion Portfolio. La idea es ir actualizandolo siempre para que se puedan ver los nuevos posteos.
+
+Card de Cuadros:
+Centrarlo y que la imagen quede en el lado izquierdo.
+Las cards de cuadros van a ser 6, (2,2,2) y se van a encontrar dentro del navbar en la seccion productos.
+Ahi cada Card va a contar con el button de comprar.
+

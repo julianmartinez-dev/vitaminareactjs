@@ -8,7 +8,7 @@ const PosteoContainer = () => {
   
   return (
     <div>
-        <h1>Card de posteos</h1>
+        <h1> <strong>Card Posteos</strong> </h1>
         <PosteoList/>
     </div>
   )
