@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCount from '../itemCount/ItemCount'
 
 const CuadroCard = ( props ) => {
 
@@ -6,7 +7,7 @@ const CuadroCard = ( props ) => {
 
   return (
     // acomodar bien el card porque asi no va
-    <div class="card card-side  w-96 card-center mx-6 mt-6 shadow-xl">
+    <div class="card justify-center w-96 mx-6 mt-6 shadow-xl">
       <figure><img src= {img} alt="Cuadro Caminos"/></figure>
       <div class="card-body">
       <h2 class="card-title"><strong> {title} </strong></h2>
@@ -14,7 +15,7 @@ const CuadroCard = ( props ) => {
       <div> {precio} </div>
       <div> {descripcion} </div>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Comprar</button>
+        <button class="btn btn-dark">Comprar</button>
     </div>
   </div>
 </div>
