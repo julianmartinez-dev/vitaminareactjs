@@ -1,15 +1,15 @@
-import React from 'react'
-import CuadroDetailContainer from './CuadroDetailContainer'
+// import React from 'react'
+// import CuadroDetailContainer from './CuadroDetailContainer'
 
-const CuadroDetail = () => {
+// const CuadroDetail = () => {
 
 
 
-  return (
-    <div>
-    <CuadroDetailContainer/>
-    </div>
-  )
-}
+//   return (
+//     <div>
+//     <CuadroDetailContainer/>
+//     </div>
+//   )
+// }
 
-export default CuadroDetail
+// export default CuadroDetail
