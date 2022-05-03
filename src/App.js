@@ -10,8 +10,6 @@ import Divider from './components/Divider';
 import Footer from './components/Footer';
 import ItemCount from './components/itemCount/ItemCount';
 import NewCard from './components/NewCard';
-import PosteoContainer from './posteos/PosteoContainer';
-// import CuadroDetailContainer from './components/cuadrosDetail/CuadroDetailContainer';
 //  import { BrowserRouter } from 'react-router-dom';
 
 
@@ -29,9 +27,6 @@ function App() {
       <NavBar/>
       <ItemCount onAdd={onAdd}/>
 
-      {/* <CuadroDetailContainer/> */}
-
-      <PosteoContainer/>
 
       <ItemListContainer/>
       <NewCard/>
