@@ -14,7 +14,7 @@ const products = [
 		id: 2,
 		title: "California",
 		price: "$35usd",
-		descripcion: descripcion: 'Imagen tomada en el norte de California!',
+		descripcion: 'Imagen tomada en el norte de California!',
 		stock: 1,
         fotografa: 'Clara Vazquez',
         lugar: 'California ,Estados Unidos',

@@ -11,8 +11,8 @@ $clr-gray300: #e1e5ee;
 $clr-gray400: #767b91;
 $clr-gray500: #4f546c;
 $clr-gray600: #2a324b;
-$clr-gray700: #161d34; 
-
+$clr-gray700: #161d34;
+/*  */
 /*   border radius */
 $radius: 0.2rem;
 
@@ -38,7 +38,7 @@ body {
 
 .card {
   overflow: hidden;
-  box-shadow: 0 2px 20px ;
+  box-shadow: 0 2px 20px;
   color: #4f546c;
   border-radius: $radius;
   display: flex;
@@ -46,41 +46,40 @@ body {
   justify-content: space-between;
   cursor: pointer;
   transition: transform 200ms ease-in;
-  }
+}
 
-  /* &__image {
+/* &__image {
     height: 12rem;
     width: 100%;
     object-fit: cover;
   } */
 
-  .card__title {
-    padding: 1rem;
-  }
-
-  .card__description {
-    padding: 0 1rem;
-  }
-
-  .card__btn {
-    padding: 1rem;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 1rem;
-    margin: 1rem;
-    border: 2px solid $clr-primary;
-    background: transparent;
-    color: $clr-primary;
-    border-radius: $radius;
-    transition:  200ms ease-in, color 200ms ease-in;
-  }
-
-  &:hover {
-    transform: scale(1.02);
-  }
-
-  &:hover &__btn {
-    background: $clr-primary;
-    color: white;
+.card__title {
+  padding: 1rem;
 }
 
+.card__description {
+  padding: 0 1rem;
+}
+
+.card__btn {
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid $clr-primary;
+  background: transparent;
+  color: $clr-primary;
+  border-radius: $radius;
+  transition: 200ms ease-in, color 200ms ease-in;
+}
+
+&:hover {
+  transform: scale(1.02);
+}
+
+&:hover &__btn {
+  background: $clr-primary;
+  color: white;
+}

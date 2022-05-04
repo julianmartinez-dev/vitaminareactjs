@@ -1,5 +1,3 @@
-import './App.css';
-import './style.css';
 
 import React from "react";
 
@@ -11,34 +9,32 @@ import Footer from './components/Footer';
 import ItemCount from './components/itemCount/ItemCount';
 import NewCard from './components/NewCard';
 //  import { BrowserRouter } from 'react-router-dom';
+import './App.css';
+import './style.css';
+import './index.css'
 
 
-
-function App() {
-
+const App = () => {
   const onAdd = (qty) => {
     alert(`Agregaste ${qty} productos`);
   };
 
   return (
-
     <div className="App">
+      <NavBar />
+      <ItemCount onAdd={onAdd} />
 
-      <NavBar/>
-      <ItemCount onAdd={onAdd}/>
+      <ItemListContainer />
+      <NewCard />
 
-
-      <ItemListContainer/>
-      <NewCard/>
-
-      
-
-      <Carousel/>
-      <Divider/>
-      <Footer/>
+      <Carousel />
+      <Divider />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default App
+
+
 

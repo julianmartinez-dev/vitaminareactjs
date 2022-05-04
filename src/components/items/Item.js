@@ -4,14 +4,14 @@
 // const {title, price, img, stock} = props.item
 
 //   return (
-//     <div class="card carousel-center mx-6 mt-6 rounded-box">
+//     <div className="card carousel-center mx-6 mt-6 rounded-box">
 //   <figure><img src= {img} alt="Album"/></figure>
-//   <div class="card-body">
-//     <h2 class="card-title"> <strong> {title} </strong> </h2>
+//   <div className="card-body">
+//     <h2 className="card-title"> <strong> {title} </strong> </h2>
 //     <strong> {price} </strong>
 //      <div> {stock} </div>
-//     <div class="card-actions justify-end">
-//       <button class="btn btn-dark">Ver</button>
+//     <div className="card-actions justify-end">
+//       <button className="btn btn-dark">Ver</button>
 //     </div>
 //   </div>
 // </div>
